@@ -1,0 +1,98 @@
+/* Centrado general y fondo */
+body {
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Contenedor del formulario */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 2em;
+    background-color: #171717;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: 0.4s ease-in-out;
+  }
+  
+  .form:hover {
+    transform: scale(1.02);
+    border: 1px solid #000;
+  }
+  
+  /* Título */
+  #heading {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  /* Campo de entrada con ícono */
+  .field {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em 1em;
+    background-color: #1f1f1f;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  }
+  
+  .input-icon {
+    height: 1.2em;
+    width: 1.2em;
+    fill: white;
+  }
+  
+  .input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #d3d3d3;
+    font-size: 0.95em;
+  }
+  
+  /* Botones */
+  .btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+  }
+  
+  .button1,
+  .button2,
+  .button3 {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #252525;
+    color: white;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .button1:hover,
+  .button2:hover {
+    background-color: #000;
+  }
+  
+  .button3 {
+    margin-top: 0.8em;
+    width: 100%;
+  }
+  
+  .button3:hover {
+    background-color: #ff3333;
+  }
+  
